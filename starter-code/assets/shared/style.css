@@ -1,0 +1,88 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.navbar {
+    padding: 0px;
+}
+
+.navbar .container-fluid {
+    justify-content: flex-end;
+    background-color: rgb(22, 22, 22);
+    padding: 10px 10px;
+}
+
+.navbar .container-fluid .nav-link {
+    color: white;
+    margin-left: 20px;
+}
+
+.sec {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.right-box {
+    margin-top: 200px;
+    width: 300px;
+    margin-left: 50px;
+}
+
+.sec a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+h1 {
+    margin: 20px 0px;
+    font-size: 80px;
+}
+
+.papel {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: rgb(138, 138, 138);
+}
+
+.name {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.crew-links {
+    display: flex;
+}
+
+
+.crew-links a {
+    display: block;
+    width: 5px;
+    height: 17px;
+    background-color: rgb(138, 138, 138);
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.tec-links {
+    margin-right: 50px;
+}
+
+.tec-links a {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(138, 138, 138);
+    margin-bottom: 20px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.tec-links a p {
+    margin-top: 10px;
+}
